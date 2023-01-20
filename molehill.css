@@ -10,7 +10,6 @@
   }
 
 .wgs__mole-head {
-  bottom: 100px;
   left: 120px;
 position: absolute;
 
@@ -27,8 +26,8 @@ position: absolute;
 }
 
 .wgs__mole-head--hidden {
-  margin-top: 20px;
-  
+margin-top: 30px;
+bottom: -300px;
 }
 
 
