@@ -7,16 +7,19 @@
     position: relative ;
   height: 482px;
   width: 640px;
+  overflow: hidden;
+  
   }
 
 .wgs__mole-head {
   left: 120px;
 position: absolute;
+transition: 0.25
 
 }
 
 .wgs__dirt-pile {
-  top: 280px;
+  top: 260px;
   left: 10px;
   position: absolute;
   
@@ -26,8 +29,8 @@ position: absolute;
 }
 
 .wgs__mole-head--hidden {
-margin-top: 30px;
-bottom: -300px;
+margin-top: 500px;
+
 }
 
 
