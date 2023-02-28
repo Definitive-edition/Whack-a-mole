@@ -58,7 +58,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
+//This line of code is responsible for creating the animations.
 window.addEventListener('DOMContentLoaded', () => {
 
   setInterval(() => {
