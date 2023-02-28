@@ -5,22 +5,22 @@
   box-sizing: border-box;
     display: inline-block;
     position: relative ;
-  height: 482px;
-  width: 640px;
+  height: 241px;
+  width: 320px;
   overflow: hidden;
   
   }
 
 .wgs__mole-head {
-  left: 120px;
+  left: 60px;
 position: absolute;
-transition: 0.25
+transition: margin-top 0.25s;
 
 }
 
 .wgs__dirt-pile {
-  top: 260px;
-  left: 10px;
+  top: 130px;
+  left: 5px;
   position: absolute;
   
 
@@ -29,7 +29,7 @@ transition: 0.25
 }
 
 .wgs__mole-head--hidden {
-margin-top: 500px;
+margin-top: 150px;
 
 }
 
