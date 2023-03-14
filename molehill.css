@@ -1,13 +1,11 @@
-/* Your code here */
-
-
 .wgs {
   box-sizing: border-box;
-    display: inline-block;
+    display: grid;
     position: relative ;
-  height: 241px;
-  width: 320px;
+  height: 541px;
+  width: 820px;
   overflow: hidden;
+
   
   }
 
@@ -19,8 +17,8 @@ transition: margin-top 0.25s;
 }
 
 .wgs__dirt-pile {
-  top: 130px;
-  left: 5px;
+  top: 255px;
+  left: -50px;
   position: absolute;
   
 
@@ -29,10 +27,13 @@ transition: margin-top 0.25s;
 }
 
 .wgs__mole-head--hidden {
-margin-top: 150px;
+margin-top: 350px;
 
 }
 
+body {
+  zoom: 0.65;
+}
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
 /* .sb {
