@@ -1,6 +1,8 @@
 .wgs {
   box-sizing: border-box;
     display: grid;
+    grid-template-columns: 55% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
     position: relative ;
   height: 541px;
   width: 820px;
